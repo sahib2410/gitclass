@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Navbar.css';
+import '../style/Navbar.css';
 
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
